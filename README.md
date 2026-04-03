@@ -1,3 +1,32 @@
+# Windows Log Analysis – Splunk SIEM Investigation
+
+![Splunk](https://img.shields.io/badge/SIEM-Splunk-orange)
+![Windows](https://img.shields.io/badge/Target-Windows%20Server%202022-blue)
+![Status](https://img.shields.io/badge/Status-Completed-green)
+
+---
+
+## Project Overview
+
+As a SOC analyst, investigating Windows Event Logs is a core daily responsibility. 
+This project demonstrates a real-world SOC workflow — collecting Windows Security 
+logs into Splunk, analyzing authentication events, simulating a brute force attack, 
+detecting it through SIEM investigation, and building a monitoring dashboard to 
+support incident triage.
+
+---
+
+## Lab Architecture
+
+| Component | System | IP Address | Role |
+|-----------|--------|------------|------|
+| Attacker | Kali Linux 2025.2 | 192.168.52.133 | Brute force simulation |
+| Target | Windows Server 2022 | 192.168.52.139 | Generate security logs |
+| SIEM | Splunk Enterprise 10.2.1 | 127.0.0.1:8000 | Log analysis & dashboard |
+
+---
+
+## SOC Workflow
 ---
 
 ## Screenshots
